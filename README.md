@@ -1,23 +1,32 @@
 # UPDATEBOT
-# License
-MIT License
+This is a bot of Discord.
+![akki](https://cdn.discordapp.com/attachments/1180475268859695104/1200409208156336188/akki.png?ex=65c61331&is=65b39e31&hm=9d4a2fa38a97af8238c9be60ef39dcf2a59910e1a72f99d33277a3dc7269a6c9&)
 
-Copyright (c) 2022 Mondanzo
-
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
-
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
-
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+## About - 説明
+このbotはminecraftのmodpackを管理するため制作されました。
+[node-curseforge](https://github.com/Mondanzo/node-curseforge)や[unzipper](https://github.com/ZJONSSON/node-unzipper)、[discord.js](https://github.com/discordjs/discord.js)の助けを借りてプログラムされています。
+## File Tree - ファイル構成
+```
+.
+├── README.md
+├── package.json
+├── package-lock.json
+├── LICENSE
+├── .gitignore
+├── src
+│   ├── main.js
+│   ├── newupdate.js
+│   ├── before.json
+│   ├── message.json
+│   └── danger.js
+```
+danger.js -> 
+```js
+module.exports = {
+    bottoken: "Discord token here",
+    curseforgetoken: "Curseforge API token here"
+};
+```
+You can get CFtoken => https://console.curseforge.com/#/login
+## ~~md書くの飽きた~~
+## ~~何書けばいいかわからん~~

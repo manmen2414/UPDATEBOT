@@ -1,0 +1,6 @@
+*.zip
+/unzip
+/src/unzip
+/src/danger.js
+/node_modules
+/.vscode
